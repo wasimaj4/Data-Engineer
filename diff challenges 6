@@ -1,0 +1,55 @@
+# Challenge 1: First Three Multiples
+def first_three_multiples(num):
+    print(num)
+    print(num * 2)
+    print(num * 3)
+    return num * 3
+
+# Challenge 2: Tip Calculation
+def tip(total, percentage):
+    tip_amount = (total * percentage) / 100
+    return tip_amount
+
+# Challenge 3: Bond, James Bond
+def introduction(first_name, last_name):
+    return last_name + ", " + first_name + " " + last_name
+
+# Challenge 4: Dog Years
+def dog_years(name, age):
+    return name + ", you are " + str(age * 7) + " years old in dog years"
+
+# Challenge 5: All Operations
+def lots_of_math(a, b, c, d):
+    first = a + b
+    second = c - d
+    third = first * second
+    fourth = third % a
+    print(first)
+    print(second)
+    print(third)
+    return fourth
+
+# Example Usage
+print("First Three Multiples of 5:")
+result = first_three_multiples(5)
+print("Result:", result)
+print()
+
+print("Tip Calculation:")
+tip_amount = tip(100, 15)
+print("Tip Amount:", tip_amount)
+print()
+
+print("Introduction:")
+bond_intro = introduction("James", "Bond")
+print("Introduction:", bond_intro)
+print()
+
+print("Dog Years:")
+dog_age = dog_years("Buddy", 3)
+print("Dog Years:", dog_age)
+print()
+
+print("Lots of Math:")
+math_result = lots_of_math(1, 2, 3, 4)
+print("Final Result:", math_result)
