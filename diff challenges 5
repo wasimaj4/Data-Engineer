@@ -1,0 +1,35 @@
+# 1. Divisible By Ten
+def divisible_by_ten(nums):
+    count = 0
+    for number in nums:
+        if number % 10 == 0:
+            count += 1
+    return count
+
+# 2. Greetings
+def add_greetings(names):
+    new_list = []
+    for name in names:
+        new_list.append("Hello, " + name)
+    return new_list
+
+# 3. Delete Starting Even Numbers
+def delete_starting_evens(my_list):
+    while len(my_list) > 0 and my_list[0] % 2 == 0:
+        my_list = my_list[1:]
+    return my_list
+
+# 4. Odd Indices
+def odd_indices(my_list):
+    new_list = []
+    for index in range(1, len(my_list), 2):
+        new_list.append(my_list[index])
+    return new_list
+
+# 5. Exponents
+def exponents(bases, powers):
+    new_list = []
+    for base in bases:
+        for power in powers:
+            new_list.append(base ** power)
+    return new_list
