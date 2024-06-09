@@ -8,7 +8,7 @@ All day, for each transaction, the name of the customer, amount spent, types of 
 
 
 Scrabble...
-In this project, we will process some data from a group of friends playing scrabble. You will use dictionaries to organize players, words, and points.
+In this project, we will process some data from a group of friends playing scrabble. I will use dictionaries to organize players, words, and points.
 
 Hacking The Fender...
 The Fender, a notorious computer hacker and general villain of the people, has compromised several top-secret passwords including your own. Your mission, should you choose to accept it, is threefold. You must acquire access to The Fender‘s systems, you must update his "passwords.csv" file to scramble the secret data. The last thing you need to do is add the signature of Slash Null, a different hacker whose nefarious deeds could be very conveniently halted by The Fender if they viewed Slash Null as a threat.
